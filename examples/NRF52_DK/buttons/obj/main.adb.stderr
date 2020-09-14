@@ -1,0 +1,2 @@
+main.adb:34:14: warning: no entities of "NRF52_DK.Buttons" are referenced
+main.adb:34:24: warning: use clause for package "Buttons" has no effect

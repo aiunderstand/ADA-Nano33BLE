@@ -1,0 +1,27 @@
+with "../../../boards/NRF52_DK/nrf52_dk_zfp.gpr";
+
+project Buttons is
+
+   for Runtime ("ada") use Nrf52_Dk_Zfp'Runtime ("Ada");
+   for Target use "arm-eabi";
+   for Main use ("main.adb");
+   for Languages use ("Ada");
+   for Source_Dirs use ("src");
+   for Object_Dir use "obj";
+   for Create_Missing_Dirs use "True";
+
+   package Compiler renames Nrf52_Dk_Zfp.Compiler;
+
+   package Linker is
+      for Default_Switches ("ada") use Nrf52_Dk_Zfp.Linker_Switches & ("-Wl,--print-memory-usage", "-Wl,--gc-sections");
+   end Linker;
+
+   package Ide is
+      for Program_Host use ":1234";
+      for Communication_Protocol use "remote";
+      for Connection_Tool use "pyocd";
+      for Vcs_Kind use "git";
+   end Ide;
+
+end Buttons;
+

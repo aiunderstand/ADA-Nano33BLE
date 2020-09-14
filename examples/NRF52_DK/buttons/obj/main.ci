@@ -1,0 +1,12 @@
+graph: { title: "C:\GNAT\Ada_Drivers_Library\examples\NRF52_DK\buttons\src\main.adb"
+node: { title: "_ada_main" label: "Main\nC:\GNAT\Ada_Drivers_Library\examples\NRF52_DK\buttons\src\main.adb:38:1\n16 bytes (static)" }
+node: { title: "nrf52_dk__leds__initialize_leds" label: "INITIALIZE_LEDS\nC:\GNAT\Ada_Drivers_Library\boards\NRF52_DK\src\nrf52_dk-leds.ads:78:14" shape : ellipse }
+edge: { sourcename: "_ada_main" targetname: "nrf52_dk__leds__initialize_leds" label: "C:\GNAT\Ada_Drivers_Library\examples\NRF52_DK\buttons\src\main.adb:41:4" }
+node: { title: "nrf52_dk__leds__turn_on" label: "TURN_ON\nC:\GNAT\Ada_Drivers_Library\boards\NRF52_DK\src\nrf52_dk-leds.ads:80:14" shape : ellipse }
+edge: { sourcename: "_ada_main" targetname: "nrf52_dk__leds__turn_on" label: "C:\GNAT\Ada_Drivers_Library\examples\NRF52_DK\buttons\src\main.adb:43:7" }
+node: { title: "nrf52_dk__time__delay_ms" label: "DELAY_MS\nC:\GNAT\Ada_Drivers_Library\boards\NRF52_DK\src\nrf52_dk-time.ads:41:14" shape : ellipse }
+edge: { sourcename: "_ada_main" targetname: "nrf52_dk__time__delay_ms" label: "C:\GNAT\Ada_Drivers_Library\examples\NRF52_DK\buttons\src\main.adb:44:20" }
+node: { title: "nrf52_dk__leds__turn_off" label: "TURN_OFF\nC:\GNAT\Ada_Drivers_Library\boards\NRF52_DK\src\nrf52_dk-leds.ads:81:14" shape : ellipse }
+edge: { sourcename: "_ada_main" targetname: "nrf52_dk__leds__turn_off" label: "C:\GNAT\Ada_Drivers_Library\examples\NRF52_DK\buttons\src\main.adb:45:7" }
+edge: { sourcename: "_ada_main" targetname: "nrf52_dk__time__delay_ms" label: "C:\GNAT\Ada_Drivers_Library\examples\NRF52_DK\buttons\src\main.adb:46:20" }
+}

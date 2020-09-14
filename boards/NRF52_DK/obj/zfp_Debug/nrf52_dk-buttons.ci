@@ -1,0 +1,25 @@
+graph: { title: "C:\GNAT\Ada_Drivers_Library\boards\NRF52_DK\src\nrf52_dk-buttons.adb"
+node: { title: "nrf52_dk__buttons__Tbutton_state_arrayBIP" label: "TBUTTON_STATE_ARRAYBIP\nC:\GNAT\Ada_Drivers_Library\boards\NRF52_DK\src\nrf52_dk-buttons.adb:38:4\n16 bytes (static)" }
+node: { title: "C:\GNAT\Ada_Drivers_Library\boards\NRF52_DK\src\nrf52_dk-buttons.adb:nrf52_dk__buttons__initialize" label: "INITIALIZE\nC:\GNAT\Ada_Drivers_Library\boards\NRF52_DK\src\nrf52_dk-buttons.adb:50:4\n32 bytes (static)" }
+node: { title: "nrf__gpio__gpio_configurationIP" label: "Gpio_Configurationip\nC:\GNAT\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf_common\nrf-gpio.ads:58:9" shape : ellipse }
+edge: { sourcename: "C:\GNAT\Ada_Drivers_Library\boards\NRF52_DK\src\nrf52_dk-buttons.adb:nrf52_dk__buttons__initialize" targetname: "nrf__gpio__gpio_configurationIP" label: "C:\GNAT\Ada_Drivers_Library\boards\NRF52_DK\src\nrf52_dk-buttons.adb:51:7" }
+node: { title: "nrf__gpio__configure_io" label: "Configure_Io\nC:\GNAT\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf_common\nrf-gpio.ads:117:14" shape : ellipse }
+edge: { sourcename: "C:\GNAT\Ada_Drivers_Library\boards\NRF52_DK\src\nrf52_dk-buttons.adb:nrf52_dk__buttons__initialize" targetname: "nrf__gpio__configure_io" label: "C:\GNAT\Ada_Drivers_Library\boards\NRF52_DK\src\nrf52_dk-buttons.adb:59:12" }
+node: { title: "nrf52_dk__time__tick_subscribe" label: "TICK_SUBSCRIBE\nC:\GNAT\Ada_Drivers_Library\boards\NRF52_DK\src\nrf52_dk-time.ads:52:13" shape : ellipse }
+edge: { sourcename: "C:\GNAT\Ada_Drivers_Library\boards\NRF52_DK\src\nrf52_dk-buttons.adb:nrf52_dk__buttons__initialize" targetname: "nrf52_dk__time__tick_subscribe" label: "C:\GNAT\Ada_Drivers_Library\boards\NRF52_DK\src\nrf52_dk-buttons.adb:62:14" }
+node: { title: "__gnat_last_chance_handler" label: "gnat_last_chance_handler\n<built-in>" shape : ellipse }
+edge: { sourcename: "C:\GNAT\Ada_Drivers_Library\boards\NRF52_DK\src\nrf52_dk-buttons.adb:nrf52_dk__buttons__initialize" targetname: "__gnat_last_chance_handler" label: "C:\GNAT\Ada_Drivers_Library\boards\NRF52_DK\src\nrf52_dk-buttons.adb:63:10" }
+node: { title: "C:\GNAT\Ada_Drivers_Library\boards\NRF52_DK\src\nrf52_dk-buttons.adb:nrf52_dk__buttons__tick_handler" label: "TICK_HANDLER\nC:\GNAT\Ada_Drivers_Library\boards\NRF52_DK\src\nrf52_dk-buttons.adb:72:4\n32 bytes (static)" }
+node: { title: "nrf__gpio__set" label: "Set\nC:\GNAT\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf_common\nrf-gpio.ads:94:13" shape : ellipse }
+edge: { sourcename: "C:\GNAT\Ada_Drivers_Library\boards\NRF52_DK\src\nrf52_dk-buttons.adb:nrf52_dk__buttons__tick_handler" targetname: "nrf__gpio__set" label: "C:\GNAT\Ada_Drivers_Library\boards\NRF52_DK\src\nrf52_dk-buttons.adb:78:17" }
+edge: { sourcename: "C:\GNAT\Ada_Drivers_Library\boards\NRF52_DK\src\nrf52_dk-buttons.adb:nrf52_dk__buttons__tick_handler" targetname: "__gnat_last_chance_handler" label: "C:\GNAT\Ada_Drivers_Library\boards\NRF52_DK\src\nrf52_dk-buttons.adb:92:23" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+edge: { sourcename: "C:\GNAT\Ada_Drivers_Library\boards\NRF52_DK\src\nrf52_dk-buttons.adb:nrf52_dk__buttons__tick_handler" targetname: "__indirect_call" label: "C:\GNAT\Ada_Drivers_Library\boards\NRF52_DK\src\nrf52_dk-buttons.adb:92:23" }
+node: { title: "nrf52_dk__buttons__state" label: "STATE\nC:\GNAT\Ada_Drivers_Library\boards\NRF52_DK\src\nrf52_dk-buttons.adb:103:4\n16 bytes (static)" }
+node: { title: "nrf52_dk__buttons__subscribe" label: "SUBSCRIBE\nC:\GNAT\Ada_Drivers_Library\boards\NRF52_DK\src\nrf52_dk-buttons.adb:112:4\n24 bytes (static)" }
+node: { title: "nrf52_dk__buttons__unsubscribe" label: "UNSUBSCRIBE\nC:\GNAT\Ada_Drivers_Library\boards\NRF52_DK\src\nrf52_dk-buttons.adb:128:4\n24 bytes (static)" }
+node: { title: "nrf52_dk__buttons___elabb" label: "BUTTONS\nC:\GNAT\Ada_Drivers_Library\boards\NRF52_DK\src\nrf52_dk-buttons.adb:36:1\n8 bytes (static)" }
+node: { title: "memset" label: "builtin_memset\n<built-in>" shape : ellipse }
+edge: { sourcename: "nrf52_dk__buttons___elabb" targetname: "memset" }
+edge: { sourcename: "nrf52_dk__buttons___elabb" targetname: "C:\GNAT\Ada_Drivers_Library\boards\NRF52_DK\src\nrf52_dk-buttons.adb:nrf52_dk__buttons__initialize" label: "C:\GNAT\Ada_Drivers_Library\boards\NRF52_DK\src\nrf52_dk-buttons.adb:140:4" }
+}

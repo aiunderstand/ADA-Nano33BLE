@@ -1,0 +1,21 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\GNAT\Ada_Drivers_Library\examples\NRF52_DK\buttons\buttons.gpr
+20200901154558 2211083b7798e2531cf488a78af53327
+C:\GNAT\Ada_Drivers_Library\boards\NRF52_DK\nrf52_dk_zfp.gpr
+20200824092946 a2b8b0985019a16cd00324685ed0aaf4
+[BOUND OBJECT FILES]
+C:\GNAT\Ada_Drivers_Library\examples\NRF52_DK\buttons\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\GNAT\Ada_Drivers_Library\examples\NRF52_DK\buttons\obj\
+-LC:\GNAT\Ada_Drivers_Library\examples\NRF52_DK\buttons\obj\
+-LC:\GNAT\Ada_Drivers_Library\boards\NRF52_DK\obj\zfp_lib_Debug\
+-LC:\gnat\2020-arm-elf\arm-eabi\lib\gnat\zfp-cortex-m4f\adalib\
+-static
+-static-libgcc
+C:\gnat\2020-arm-elf\arm-eabi\lib\gnat\zfp-cortex-m4f\adalib\libgnat.a

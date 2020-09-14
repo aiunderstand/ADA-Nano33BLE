@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file />
+    <file_marker column=" 4" line=" 41" >
+      <vfs_project>C:\GNAT\Ada_Drivers_Library\examples\NRF52_DK\buttons\buttons.gpr</vfs_project>
+      <vfs_file>C:\GNAT\Ada_Drivers_Library\examples\NRF52_DK\buttons\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 40" >
+      <vfs_project>C:\GNAT\Ada_Drivers_Library\boards\NRF52_DK\nrf52_dk_zfp.gpr</vfs_project>
+      <vfs_file>C:\GNAT\Ada_Drivers_Library\boards\NRF52_DK\src\nrf52_dk-leds.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 14" line=" 36" >
+      <vfs_project>C:\GNAT\Ada_Drivers_Library\boards\NRF52_DK\nrf52_dk_zfp.gpr</vfs_project>
+      <vfs_file>C:\GNAT\Ada_Drivers_Library\boards\NRF52_DK\src\nrf52_dk-leds.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

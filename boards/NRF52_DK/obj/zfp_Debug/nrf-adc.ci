@@ -1,0 +1,24 @@
+graph: { title: "C:\GNAT\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf52\nrf-adc.adb"
+node: { title: "C:\GNAT\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf52\nrf-adc.adb:nrf__adc__set_resolution" label: "Set_Resolution\nC:\GNAT\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf52\nrf-adc.adb:48:4\n16 bytes (static)" }
+node: { title: "__gnat_last_chance_handler" label: "gnat_last_chance_handler\n<built-in>" shape : ellipse }
+edge: { sourcename: "C:\GNAT\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf52\nrf-adc.adb:nrf__adc__set_resolution" targetname: "__gnat_last_chance_handler" label: "C:\GNAT\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf52\nrf-adc.adb:52:15" }
+node: { title: "C:\GNAT\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf52\nrf-adc.adb:nrf__adc__set_reference" label: "Set_Reference\nC:\GNAT\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf52\nrf-adc.adb:62:4\n16 bytes (static)" }
+edge: { sourcename: "C:\GNAT\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf52\nrf-adc.adb:nrf__adc__set_reference" targetname: "__gnat_last_chance_handler" label: "C:\GNAT\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf52\nrf-adc.adb:64:12" }
+node: { title: "nrf__adc__do_pin_conversion" label: "Do_Pin_Conversion\nC:\GNAT\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf52\nrf-adc.adb:76:4\n32 bytes (static)" }
+edge: { sourcename: "nrf__adc__do_pin_conversion" targetname: "C:\GNAT\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf52\nrf-adc.adb:nrf__adc__set_resolution" label: "C:\GNAT\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf52\nrf-adc.adb:84:7" }
+edge: { sourcename: "nrf__adc__do_pin_conversion" targetname: "C:\GNAT\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf52\nrf-adc.adb:nrf__adc__set_reference" label: "C:\GNAT\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf52\nrf-adc.adb:85:7" }
+edge: { sourcename: "nrf__adc__do_pin_conversion" targetname: "__gnat_last_chance_handler" label: "C:\GNAT\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf52\nrf-adc.adb:90:12" }
+edge: { sourcename: "nrf__adc__do_pin_conversion" targetname: "__gnat_last_chance_handler" label: "C:\GNAT\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf52\nrf-adc.adb:109:12" }
+node: { title: "nrf__tasks__trigger" label: "Trigger\nC:\GNAT\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf52\nrf-tasks.ads:54:14" shape : ellipse }
+edge: { sourcename: "nrf__adc__do_pin_conversion" targetname: "nrf__tasks__trigger" label: "C:\GNAT\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf52\nrf-adc.adb:129:7" }
+edge: { sourcename: "nrf__adc__do_pin_conversion" targetname: "C:\GNAT\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf52\nrf-adc.adb:nrf__adc__wait_for_result" label: "C:\GNAT\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf52\nrf-adc.adb:130:7" }
+node: { title: "nrf__adc__do_vdd_conversion" label: "Do_Vdd_Conversion\nC:\GNAT\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf52\nrf-adc.adb:138:4\n24 bytes (static)" }
+edge: { sourcename: "nrf__adc__do_vdd_conversion" targetname: "C:\GNAT\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf52\nrf-adc.adb:nrf__adc__set_resolution" label: "C:\GNAT\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf52\nrf-adc.adb:145:7" }
+edge: { sourcename: "nrf__adc__do_vdd_conversion" targetname: "C:\GNAT\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf52\nrf-adc.adb:nrf__adc__set_reference" label: "C:\GNAT\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf52\nrf-adc.adb:146:7" }
+edge: { sourcename: "nrf__adc__do_vdd_conversion" targetname: "__gnat_last_chance_handler" label: "C:\GNAT\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf52\nrf-adc.adb:152:12" }
+edge: { sourcename: "nrf__adc__do_vdd_conversion" targetname: "nrf__tasks__trigger" label: "C:\GNAT\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf52\nrf-adc.adb:160:7" }
+edge: { sourcename: "nrf__adc__do_vdd_conversion" targetname: "C:\GNAT\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf52\nrf-adc.adb:nrf__adc__wait_for_result" label: "C:\GNAT\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf52\nrf-adc.adb:161:7" }
+node: { title: "nrf__adc__busy" label: "Busy\nC:\GNAT\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf52\nrf-adc.adb:169:4\n4 bytes (static)" }
+node: { title: "C:\GNAT\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf52\nrf-adc.adb:nrf__adc__wait_for_result" label: "Wait_For_Result\nC:\GNAT\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf52\nrf-adc.adb:176:4\n8 bytes (static)" }
+edge: { sourcename: "C:\GNAT\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf52\nrf-adc.adb:nrf__adc__wait_for_result" targetname: "nrf__adc__busy" label: "C:\GNAT\Ada_Drivers_Library\arch\ARM\Nordic\drivers\nrf52\nrf-adc.adb:178:13" }
+}

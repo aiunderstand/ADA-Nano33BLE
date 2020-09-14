@@ -36,7 +36,7 @@ with NRF52_DK.LEDs; use NRF52_DK.LEDs;
 with NRF52_DK.Time;
 
 procedure Main is
-LED  : User_LED := LED13;
+LED  : User_LED := LED13; //test
 begin
    Initialize_LEDs;
    loop

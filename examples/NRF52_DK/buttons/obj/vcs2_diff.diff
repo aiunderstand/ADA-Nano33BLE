@@ -1,0 +1,25 @@
+commit f3eeda6147c7ecf1758a4f07e4ff338aed7b828e
+Author:     Steven Bos <steven@stevenbos.com>
+AuthorDate: Mon, 14 Sep 2020 11:31:19 +0200
+Commit:     Steven Bos <steven@stevenbos.com>
+CommitDate: Mon, 14 Sep 2020 11:31:19 +0200
+Refnames:   (HEAD)
+
+Test commit in GNAT
+---
+ examples/NRF52_DK/buttons/src/main.adb | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/examples/NRF52_DK/buttons/src/main.adb b/examples/NRF52_DK/buttons/src/main.adb
+index e144227..9359932 100644
+--- a/examples/NRF52_DK/buttons/src/main.adb
++++ b/examples/NRF52_DK/buttons/src/main.adb
+@@ -36,7 +36,7 @@ with NRF52_DK.LEDs; use NRF52_DK.LEDs;
+ with NRF52_DK.Time;
+
+ procedure Main is
+-LED  : User_LED := LED13;
++LED  : User_LED := LED13; //test
+ begin
+    Initialize_LEDs;
+    loop
